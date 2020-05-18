@@ -38,9 +38,9 @@ This is just a sample app deploying from vscode git into github repository
 	
  4.  git configuration for name and email
 
-		> git config --global user.name 'Ricky Robiso'
+		> git config --global user.name ['name']
 
-		> git config --global user.email 'ricrobiso@gmail.com'
+		> git config --global user.email ['email']
 
 
  5. 	
@@ -101,13 +101,13 @@ This is just a sample app deploying from vscode git into github repository
 		git init
 		git add README.md
 		git commit -m "first commit"
-		git remote add origin https://github.com/rmrobiso/myapp1.git
+		git remote add origin https://github.com/myapp1.git
 		git push -u origin master
                 
 
 	…or push an existing repository from the command line
 
-		git remote add origin https://github.com/rmrobiso/myapp1.git
+		git remote add origin https://github.com/myapp1.git
 		git push -u origin master
 
 	…or import code from another repository
@@ -120,7 +120,7 @@ This is just a sample app deploying from vscode git into github repository
  9.
 	> git remote
 		- none
-	> git remote add origin https://github.com/rmrobiso/myapp1.git
+	> git remote add origin https://github.com/myapp1.git
 
 	> git remote
 		- origin
