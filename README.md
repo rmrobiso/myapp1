@@ -5,8 +5,11 @@ This is just a sample app deploying from vscode git into github repository
  1. Basic Command
 
 	> git init 		// Initialize Local GIT Repository
+
 	> git add <file>	// Add file to index
+
 	> git status		// Check Status of working tree
+
 	> git commit		// Commit changes in Index
 	
 	> git push		// Push to Remote Repository
@@ -40,8 +43,9 @@ This is just a sample app deploying from vscode git into github repository
 		> git config --global user.email 'ricrobiso@gmail.com'
 
 
- 5. 	> git status
-	    > git add .   |  git add index.html
+ 5. 	
+    > git status
+	  > git add .   |  git add index.html
 
 	      - to remove file from state ( unstage command )
 
@@ -49,7 +53,7 @@ This is just a sample app deploying from vscode git into github repository
 
 	        > git add *.html  | git add .
 
-	    > git commit -m 'Initial project commit'
+	  > git commit -m 'Initial project commit'
 
 
  6.  Create the git ignore file
@@ -110,7 +114,8 @@ This is just a sample app deploying from vscode git into github repository
 
 		You can initialize this repository with code from a 
 		Subversion, Mercurial, or TFS project.
-	
+	--------------------------------------------------
+
 
  9.
 	> git remote
@@ -123,16 +128,16 @@ This is just a sample app deploying from vscode git into github repository
 	> git push -u origin master
 
 
-  - Back to github.com
+    Back to github.com
 
-	  - referesh the browser
+	    - referesh the browser
 	
-	- create the README.md
+	  create the README.md
 
-		> touch README.md
+		  > touch README.md
 
-	> git add .
+	  > git add .
 
-	> git commit -m 'Created the README file'
+	  > git commit -m 'Created the README file'
 
 
